@@ -1,0 +1,20 @@
+body{
+  background: linear-gradient(to bottom, #b3dced 0%,#29b8e5 50%,#bce0ee 100%)
+}
+
+.error{
+  display: none;
+}
+
+@media(width<=280px){
+  #root{
+      display: none;
+  }
+  .error{
+    display: block;
+    margin: 100% 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
